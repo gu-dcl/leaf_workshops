@@ -400,10 +400,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213135315886",
+	"id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213135356119",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-13T21:53:15.886Z",
-	"dcterms:modified": "2024-02-13T21:53:56.119Z",
+	"dcterms:created": "2024-02-13T21:53:56.119Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gu-dcl",
 		"@type": [
@@ -414,7 +413,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213135315886#Target",
+		"@id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213135356119#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml",
@@ -428,7 +427,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213135315886#Selector",
+			"@id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213135356119#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/placeName"
 		}
@@ -881,7 +880,6 @@
 	"id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?rs_annotation_20240213140357039",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T22:03:57.039Z",
-	"dcterms:modified": "2024-02-13T22:03:57.039Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gu-dcl",
 		"@type": [
@@ -908,7 +906,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/gu-dcl/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?rs_annotation_20240213140357039#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[3]/rs"
+			"rdf:value": "TEI/text/body/div/p[3]/rs[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -955,7 +953,7 @@
                but steel rods consumed by rust were it not for the care of <persName key="George V" ref="http://www.wikidata.org/entity/Q269412" cert="high">H. M.'s</persName> <placeName key="Office of Works" ref="http://www.wikidata.org/entity/Q3349678" cert="medium">Office of Works<precision match="@ref" precision="low"/></placeName>.
                Only for Mrs Dalloway the moment was complete; for <persName>Mrs Dalloway</persName> June was fresh. A
                happy childhood—and it was not to his daughters only that <persName type="fictional">Justin Parry</persName> had seemed a
-               fine fellow (weak of course on the <orgName cert="Unknown">Bench</orgName>); flowers at evening, smoke rising; the caw
+               fine fellow (weak of course on <rs cert="high" type="http://sparql.cwrc.ca/ontology/cwrc#Occupation">the Bench</rs>); flowers at evening, smoke rising; the caw
                of rooks falling from ever so high, down down through the <rs key="October" ref="http://www.wikidata.org/entity/Q124" cert="high" type="Month">October</rs> air—there is
                nothing to take the place of childhood. A leaf of mint brings it back; or a cup with
                a blue ring.</p>
