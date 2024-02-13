@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -57,11 +60,11 @@
             <pb n="20" facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_images/dalloway_01.jpg"/>
 
             <head>MRS DALLOWAY IN BOND STREET</head>
-            <byline>BY VIRGINIA WOOLF</byline>
+            <byline>BY <persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" cert="high" role="aut" type="real">VIRGINIA WOOLF</persName></byline>
 
 
-            <p>Mrs Dalloway said she would buy the gloves herself.</p>
-            <p>Big Ben was striking as she stepped out into the street. It was eleven o'clock and
+            <p><persName key="Dalloway, Clarissa" ref="http://viaf.org/viaf/766159234400703371493/" type="fictional">Mrs Dalloway</persName> said she would buy the gloves herself.</p>
+            <p><placeName key="Big Ben" ref="http://www.wikidata.org/entity/Q41225" cert="high">Big Ben<precision match="@ref" precision="medium" /></placeName> was striking as she stepped out into the street. It was eleven o'clock and
                the unused hour was fresh as if issued to children on a beach. But there was
                something solemn in the deliberate swing of the repeated strokes; something stirring
                in the murmur of wheels and the shuffle of footsteps.</p>
